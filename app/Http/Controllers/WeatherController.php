@@ -16,7 +16,7 @@ class WeatherController extends Controller
         $client = new Client();
 
         // API endpoint wiith location and units
-        $apiUrl = "http://api.openweathermap.org/data/2.5/weather?q=Amsterdam&units=metric&appid={$apiKey}";
+        $apiUrl = "http://api.openweathermap.org/data/2.5/weather?q=Utrecht&units=metric&appid={$apiKey}";
 
         try {
             // Make a GEt request to the OpenWeather API
