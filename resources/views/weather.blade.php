@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Weather Information</title>
+        <title>Weather Information for Amsterdam</title>
     </head>
     <body>
         <h1>Current weather in {{ $weatherData['name'] }}</h1>
